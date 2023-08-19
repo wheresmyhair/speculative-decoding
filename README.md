@@ -2,6 +2,7 @@
 投机解码  
 参考文献: [Fast Inference from Transformers via Speculative Decoding (arXiv:2211.17192v2)](https://arxiv.org/abs/2211.17192)  
 目前仅在 T5-small (作为draft) 以及 T5-base (作为target) 上进行了代码流程测试。  
+目前支持 top-p, argmax, temperature 调整。
 
 # TODO
 1. 代码Peer Review
